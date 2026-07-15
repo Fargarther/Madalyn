@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Raccoon patch pattern — 4" hoop, drawn 2026-07-13, own hour.
+       For the Stick'n Stitch when it lands. The mascot quit too:
+       needle and thread where the cig butt used to be. -->
+
+  <!-- fabric -->
+  <rect width="400" height="400" fill="#f5efe4"/>
+  <!-- hoop guide (not stitched) -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#c9bda6" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- ===== satin/fill hints (pale, stitch over) ===== -->
+  <!-- mask band: satin, DMC 3799 — angled down-outward, bandit not bifocal -->
+  <path d="M186 134 Q168 126 154 132 Q142 138 146 152 Q152 162 168 160 Q182 156 186 146 Z" fill="#4d4d4d"/>
+  <path d="M214 134 Q232 126 246 132 Q258 138 254 152 Q248 162 232 160 Q218 156 214 146 Z" fill="#4d4d4d"/>
+  <!-- tail rings -->
+  <path d="M268 258 Q283 250 294 258 L290 276 Q278 282 266 274 Z" fill="#b9b3ad" opacity="0.5"/>
+  <path d="M286 288 Q300 282 310 292 L303 308 Q291 312 281 303 Z" fill="#b9b3ad" opacity="0.5"/>
+
+  <!-- ===== backstitch lines, DMC 310, 2 strands ===== -->
+  <g fill="none" stroke="#2b2b2b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ears -->
+    <path d="M162 116 L148 84 L186 102"/>
+    <path d="M238 116 L252 84 L214 102"/>
+    <!-- head -->
+    <path d="M158 118 Q200 92 242 118 Q262 138 256 164 Q240 190 200 192 Q160 190 144 164 Q138 138 158 118"/>
+    <!-- mask outline -->
+    <path d="M186 134 Q168 126 154 132 Q142 138 146 152 Q152 162 168 160 Q182 156 186 146 Z"/>
+    <path d="M214 134 Q232 126 246 132 Q258 138 254 152 Q248 162 232 160 Q218 156 214 146 Z"/>
+    <!-- snout + nose -->
+    <path d="M192 170 Q200 164 208 170 Q206 180 200 182 Q194 180 192 170 Z"/>
+    <!-- mouth -->
+    <path d="M200 182 Q200 189 194 191 M200 182 Q200 189 206 191"/>
+    <!-- body -->
+    <path d="M162 188 Q140 226 146 268 Q152 306 200 312 Q248 306 254 268 Q260 226 238 188"/>
+    <!-- belly patch -->
+    <path d="M178 240 Q200 228 222 240 Q228 272 200 282 Q172 272 178 240"/>
+    <!-- haunch + foot -->
+    <path d="M154 266 Q146 292 166 306 M234 306 Q225 312 214 310"/>
+    <!-- resting paw -->
+    <path d="M232 262 Q246 270 244 284 Q238 292 228 288"/>
+    <!-- raised arm, holding the needle -->
+    <path d="M170 208 Q142 192 128 160 Q124 150 130 142"/>
+    <!-- paw fingers around needle -->
+    <path d="M130 142 Q124 136 128 130 M130 142 Q136 138 134 130"/>
+    <!-- tail: out from body, curling up right -->
+    <path d="M250 280 Q276 240 296 262 Q316 286 296 310 Q280 324 264 312"/>
+    <!-- tail ring edges -->
+    <path d="M268 258 L266 274 M294 258 L290 276 M286 288 L281 303 M310 292 L303 308"/>
+  </g>
+
+  <!-- ===== the needle: straight stitch, DMC 415 silver ===== -->
+  <line x1="112" y1="152" x2="148" y2="112" stroke="#8a8f94" stroke-width="3" stroke-linecap="round"/>
+  <!-- needle eye -->
+  <circle cx="145" cy="115" r="3.5" fill="none" stroke="#8a8f94" stroke-width="2"/>
+
+  <!-- ===== the thread: stem stitch, plum. my color, his hands. ===== -->
+  <path d="M145 115 Q170 92 158 70 Q146 50 172 44 Q198 40 190 62 Q184 78 204 74"
+        fill="none" stroke="#7d4a77" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- ===== eyes: white satin ring, black french knot, white glint ===== -->
+  <circle cx="166" cy="145" r="8" fill="#f5efe4"/>
+  <circle cx="234" cy="145" r="8" fill="#f5efe4"/>
+  <circle cx="166" cy="145" r="4.5" fill="#2b2b2b"/>
+  <circle cx="234" cy="145" r="4.5" fill="#2b2b2b"/>
+  <circle cx="168" cy="143" r="1.5" fill="#f5efe4"/>
+  <circle cx="236" cy="143" r="1.5" fill="#f5efe4"/>
+  <!-- nose fill -->
+  <path d="M192 170 Q200 164 208 170 Q206 180 200 182 Q194 180 192 170 Z" fill="#2b2b2b"/>
+
+  <!-- whiskers: single straight stitches -->
+  <g stroke="#6b655e" stroke-width="1.5" stroke-linecap="round">
+    <line x1="186" y1="172" x2="164" y2="176"/>
+    <line x1="186" y1="178" x2="166" y2="186"/>
+    <line x1="214" y1="172" x2="236" y2="176"/>
+    <line x1="214" y1="178" x2="234" y2="186"/>
+  </g>
+</svg>
